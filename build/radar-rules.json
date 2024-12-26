@@ -8223,6 +8223,19 @@
       }
     ]
   },
+  "cursor.com": {
+    "_name": "Cursor",
+    "www": [
+      {
+        "title": "Changelog",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/changelog"
+        ],
+        "target": "/cursor/cursor/changelog"
+      }
+    ]
+  },
   "cw.com.tw": {
     "_name": "天下雜誌",
     ".": [
@@ -11283,6 +11296,14 @@
           "/:user/:repo/wiki"
         ],
         "target": "/github/wiki/:user/:repo/:page"
+      },
+      {
+        "title": "Releases",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/TiddlyWiki/TiddlyWiki5"
+        ],
+        "target": "/tiddlywiki/releases"
       }
     ],
     "gist": [
@@ -29738,6 +29759,19 @@
       }
     ]
   },
+  "tiddlywiki.com": {
+    "_name": "TiddlyWiki",
+    ".": [
+      {
+        "title": "Releases",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/"
+        ],
+        "target": "/tiddlywiki/releases"
+      }
+    ]
+  },
   "tiktok.com": {
     "_name": "TikTok",
     ".": [
@@ -32211,7 +32245,8 @@
         "title": "Channel with username",
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
-          "/user/:username"
+          "/user/:username",
+          "/:username"
         ],
         "target": "/youtube/user/:username"
       }
